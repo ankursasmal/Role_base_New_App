@@ -1,6 +1,6 @@
 import { MongoClient, Db } from 'mongodb'
 
-const uri = process.env.MONGODB_URI || 'mongodb://localhost:27017'
+const uri = "mongodb+srv://arijchowdhury:Arij1234@cluster0.ypvv5cp.mongodb.net/rbac_dashboard?retryWrites=true&w=majority&appName=ecommerce"
 const dbName = process.env.DB_NAME || 'rbac_dashboard'
 
 let client: MongoClient | null = null

@@ -1,7 +1,7 @@
 import { SignJWT, jwtVerify } from 'jose'
 import { cookies } from 'next/headers'
 
-const secretKey = process.env.SESSION_SECRET || 'your-secret-key'
+const secretKey = "your-super-secret-key-change-this-in-production"
 const encodedKey = new TextEncoder().encode(secretKey)
 
 export type SessionPayload = {
